@@ -1,6 +1,7 @@
 # node-imei
 ## Description
-imei generator/checker (via Luhn algorithm)
+imei generator/checker (via Luhn algorithm) forked from [https://github.com/BadMachine/node-imei](https://github.com/BadMachine/node-imei)
+with minor changes made to make this package Typescript-compatible. Also added types definitions
 
 ## Installation
     $ npm install node-imei
