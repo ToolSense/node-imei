@@ -4,7 +4,7 @@ imei generator/checker (via Luhn algorithm) forked from [https://github.com/BadM
 with minor changes made to make this package Typescript-compatible. Also added types definitions
 
 ## Installation
-    $ npm install node-imei
+    $ npm install node-imei-ts
     
 ## Usage
 ``` javascript
