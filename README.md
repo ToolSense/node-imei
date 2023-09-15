@@ -8,9 +8,18 @@ with minor changes made to make this package Typescript-compatible. Also added t
     
 ## Usage
 ``` javascript
-var imei = require('node-imei');
+var imei = require('node-imei-ts');
 
-var IMEI= new imei();
+console.log(IMEI.random()); // returns string with random imei
+
+console.log(IMEI.device("Apple","iPhone3G")); // returns string with imei by device TAC
+
+console.log(IMEI.isValid("860921035123120")); // returns true
+```
+
+``` typescript
+export imei from 'node-imei-ts'
+
 console.log(IMEI.random()); // returns string with random imei
 
 console.log(IMEI.device("Apple","iPhone3G")); // returns string with imei by device TAC
