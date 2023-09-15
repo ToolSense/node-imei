@@ -1,9 +1,9 @@
 {
   "name": "node-imei-ts",
-  "version": "1.0.9",
+  "version": "1.0.91",
   "description": "imei generator/checker fork from https://github.com/BadMachine/node-imei with added TS compatibility ",
   "main": "./src/imei.js",
-  "typings": "./src/imei.d.ts",
+  "typings": "./imei.d.ts",
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
