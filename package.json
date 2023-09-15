@@ -1,6 +1,6 @@
 {
   "name": "node-imei-ts",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "imei generator/checker fork from https://github.com/BadMachine/node-imei with added TS compatibility ",
   "main": "./scr/imei.js",
   "devDependencies": {},
